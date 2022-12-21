@@ -14,11 +14,11 @@ export default function Meme() {
    */
   const [memeImage, setMemeImage] = React.useState("");
 
-
   function getMemImg() {
     //Accessing the memes array from the memesData object
     const memesArray = memesData.data.memes;
     const randomIndex = Math.floor(Math.random() * memesArray.length);
+    // console.log(randomIndex);
     setMemeImage(memesArray[randomIndex].url);
   }
   return (
