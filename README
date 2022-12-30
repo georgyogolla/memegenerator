@@ -1,0 +1,5 @@
+This is a simple react app that enables you generate memes from "imgflip" API.
+To have the project in your local machine : 
+- Clone : git clone -- url
+- Install npm packages : npm install
+- Run - npm run dev
